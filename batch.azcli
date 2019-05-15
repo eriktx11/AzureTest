@@ -1,7 +1,0 @@
-$rgName = "batch"
-$stgAcctName = "laaz203batchsa"
-$location = "westus"
-$batchAcctName = "laaz203batchacct"
-$poolName = "myPool"
-
-az group create -l $location -n $rgName
