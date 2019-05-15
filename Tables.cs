@@ -10,7 +10,7 @@ namespace linuxacademy.az203.storage.tables
 {
     public class Tables
     {
-        private static string _connectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=laaz203tables2019;AccountKey=ECGPmRylcTwZxiqoIENT4iG4hewsuXMR8af02ued/4Nht2GJKr3ox7c7e5i8VlWQDdIBfZ29oYWRvZ462zKkCA==";
+        private static string _connectionString = "put your connetion string here";
 
         public static async Task runDemoAsync(){
             var storageAccount = CloudStorageAccount
